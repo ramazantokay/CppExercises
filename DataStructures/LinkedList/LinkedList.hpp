@@ -41,7 +41,6 @@ private:
 template <class T>
 LinkedList<T>::LinkedList()
 {
-    /* TODO */
     head = new Node<T>();
     tail = new Node<T>();
     head->next = tail;
@@ -51,7 +50,6 @@ LinkedList<T>::LinkedList()
 template <class T>
 LinkedList<T>::LinkedList(const LinkedList &obj)
 {
-    /* TODO */
     head = new Node<T>();
     tail = new Node<T>();
     head->next = tail;
